@@ -27,23 +27,6 @@ public class FamilyTree {
         familyTree.remove(human);
     }
 
-    // public String findChildren(FamilyTree tree){
-    //     Scanner scanner = new Scanner(System.in);
-    //     System.out.print("Enter a person: \n");
-    //     String person = scanner.nextLine();
-    //     scanner.close();
-    //     String child = "";
-    //     List<FamilyTree> childTree = new ArrayList<>();
-    //     for (Human human : familyTree) {
-    //         if (familyTree.contains(person)) {
-    //             child = human.getChildren();
-    //             for (Human human1 : familyTree) {
-    //                 if (familyTree.contains(child)) {
-    //                     childTree.addAll(human1);
-    //             }
-    //         }
-    //     }
-    // }
 
     public String findChildren(FamilyTree tree) {
         Scanner scanner = new Scanner(System.in);
